@@ -1,0 +1,19 @@
+server:
+  port: 80
+  tomcat:
+    uri-encoding: UTF-8
+  servlet:
+    context-path: /seckill
+
+logging:
+  level:
+    root: INFO
+    org.springframework.context: ERROR
+    org.springframework.web: ERROR
+  task:
+    show: false
+
+mybatis-plus:
+  configuration:
+    cache-enabled: true
+    map-underscore-to-camel-case: true
